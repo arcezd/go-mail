@@ -6,14 +6,14 @@ SPDX-License-Identifier: CC0-1.0
 
 # go-mail - Easy to use, yet comprehensive library for sending mails with Go
 
-[![GoDoc](https://godoc.org/github.com/wneessen/go-mail?status.svg)](https://pkg.go.dev/github.com/wneessen/go-mail)
+[![GoDoc](https://godoc.org/github.com/arcezd/go-mail?status.svg)](https://pkg.go.dev/github.com/arcezd/go-mail)
 [![codecov](https://codecov.io/gh/wneessen/go-mail/branch/main/graph/badge.svg?token=37KWJV03MR)](https://codecov.io/gh/wneessen/go-mail) 
-[![Go Report Card](https://goreportcard.com/badge/github.com/wneessen/go-mail)](https://goreportcard.com/report/github.com/wneessen/go-mail) 
+[![Go Report Card](https://goreportcard.com/badge/github.com/arcezd/go-mail)](https://goreportcard.com/report/github.com/arcezd/go-mail) 
 [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)
 [![#go-mail on Discord](https://img.shields.io/badge/Discord-%23go%E2%80%93mail-blue.svg)](https://discord.gg/ysQXkaccXk) 
-[![REUSE status](https://api.reuse.software/badge/github.com/wneessen/go-mail)](https://api.reuse.software/info/github.com/wneessen/go-mail)
+[![REUSE status](https://api.reuse.software/badge/github.com/arcezd/go-mail)](https://api.reuse.software/info/github.com/arcezd/go-mail)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8701/badge)](https://www.bestpractices.dev/projects/8701)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/wneessen/go-mail/badge)](https://securityscorecards.dev/viewer/?uri=github.com/wneessen/go-mail)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/arcezd/go-mail/badge)](https://securityscorecards.dev/viewer/?uri=github.com/arcezd/go-mail)
 <a href="https://ko-fi.com/D1D24V9IX"><img src="https://uploads-ssl.webflow.com/5c14e387dab576fe667689cf/5cbed8a4ae2b88347c06c923_BuyMeACoffee_blue.png" height="20" alt="buy ma a coffee"></a>
 
 <p align="center"><img src="./assets/gopher2.svg" width="250" alt="go-mail logo"/></p>
@@ -50,7 +50,7 @@ Some of the features of this library:
 * [X] Middleware support for 3rd-party libraries to alter mail messages
 * [X] Support sending mails via a local sendmail command
 * [X] Support for requestng MDNs (RFC 8098) and DSNs (RFC 1891)
-* [X] DKIM signature support via [go-mail-middlware](https://github.com/wneessen/go-mail-middleware)
+* [X] DKIM signature support via [go-mail-middlware](https://github.com/arcezd/go-mail-middleware)
 * [X] Message object satisfies `io.WriteTo` and `io.Reader` interfaces
 * [X] Support for Go's `html/template` and `text/template` (as message body, alternative part or attachment/emebed)
 * [X] Output to file support which allows storing mail messages as e. g. `.eml` files to disk to open them in a MUA
@@ -83,7 +83,7 @@ fulfill. Yet, since version v0.2.8 we've added support for middleware on the `Ms
 alter a given mail message to their needs without relying on `go-mail` to support their specific need.
 
 To get our users started with message middleware, we've created a collection of useful middlewares. It can be 
-found in a seperate repository: [go-mail-middlware](https://github.com/wneessen/go-mail-middleware).
+found in a seperate repository: [go-mail-middlware](https://github.com/arcezd/go-mail-middleware).
 
 ## Examples
 

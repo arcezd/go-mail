@@ -15,8 +15,8 @@ const (
 MIME-Version: 1.0
 Message-ID: <1305604950.683004066175.AAAAAAAAaaaaaaaaB@go-mail.dev>
 Subject: Example mail // plain text without encoding
-User-Agent: go-mail v0.4.0 // https://github.com/wneessen/go-mail
-X-Mailer: go-mail v0.4.0 // https://github.com/wneessen/go-mail
+User-Agent: go-mail v0.4.0 // https://github.com/arcezd/go-mail
+X-Mailer: go-mail v0.4.0 // https://github.com/arcezd/go-mail
 From: "Toni Tester" <go-mail@go-mail.dev>
 To: <go-mail+test@go-mail.dev>
 Cc: <go-mail+cc@go-mail.dev>
@@ -38,8 +38,8 @@ This is a signature`
 MIME-Version: 1.0
 Message-ID: <1305604950.683004066175.AAAAAAAAaaaaaaaaB@go-mail.dev>
 Subject: Example mail // plain text without encoding
-User-Agent: go-mail v0.4.0 // https://github.com/wneessen/go-mail
-X-Mailer: go-mail v0.4.0 // https://github.com/wneessen/go-mail
+User-Agent: go-mail v0.4.0 // https://github.com/arcezd/go-mail
+X-Mailer: go-mail v0.4.0 // https://github.com/arcezd/go-mail
 From: "Toni Tester" <go-mail@go-mail.dev>
 To: <go-mail+test@go-mail.dev>
 Cc: <go-mail+cc@go-mail.dev>
@@ -60,8 +60,8 @@ This is a signature`
 	exampleMailPlainNoEncNoDate = `MIME-Version: 1.0
 Message-ID: <1305604950.683004066175.AAAAAAAAaaaaaaaaB@go-mail.dev>
 Subject: Example mail // plain text without encoding
-User-Agent: go-mail v0.4.0 // https://github.com/wneessen/go-mail
-X-Mailer: go-mail v0.4.0 // https://github.com/wneessen/go-mail
+User-Agent: go-mail v0.4.0 // https://github.com/arcezd/go-mail
+X-Mailer: go-mail v0.4.0 // https://github.com/arcezd/go-mail
 From: "Toni Tester" <go-mail@go-mail.dev>
 To: <go-mail+test@go-mail.dev>
 Cc: <go-mail+cc@go-mail.dev>
@@ -83,8 +83,8 @@ This is a signature`
 MIME-Version: 1.0
 Message-ID: <1305604950.683004066175.AAAAAAAAaaaaaaaaB@go-mail.dev>
 Subject: Example mail // plain text quoted-printable
-User-Agent: go-mail v0.4.0 // https://github.com/wneessen/go-mail
-X-Mailer: go-mail v0.4.0 // https://github.com/wneessen/go-mail
+User-Agent: go-mail v0.4.0 // https://github.com/arcezd/go-mail
+X-Mailer: go-mail v0.4.0 // https://github.com/arcezd/go-mail
 From: "Toni Tester" <go-mail@go-mail.dev>
 To: <go-mail+test@go-mail.dev>
 Cc: <go-mail+cc@go-mail.dev>
@@ -107,8 +107,8 @@ This is a signature`
 MIME-Version: 1.0
 Message-ID: <1305604950.683004066175.AAAAAAAAaaaaaaaaB@go-mail.dev>
 Subject: Example mail // plain text base64
-User-Agent: go-mail v0.4.0 // https://github.com/wneessen/go-mail
-X-Mailer: go-mail v0.4.0 // https://github.com/wneessen/go-mail
+User-Agent: go-mail v0.4.0 // https://github.com/arcezd/go-mail
+X-Mailer: go-mail v0.4.0 // https://github.com/arcezd/go-mail
 From: "Toni Tester" <go-mail@go-mail.dev>
 To: <go-mail+test@go-mail.dev>
 Cc: <go-mail+cc@go-mail.dev>
